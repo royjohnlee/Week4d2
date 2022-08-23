@@ -13,7 +13,7 @@ class Dragon {
 
   static getDragons(...dragon) {
 
-    console.log(dragon)
+    //console.log(dragon)
     let newArr = []
     for (let ele of dragon) {
       newArr.push(ele.name)
@@ -21,6 +21,15 @@ class Dragon {
     return newArr
   }
 }
+
+
+// const puff = new Dragon("Puff", "green");
+// console.log(puff);
+// console.log(puff.breathesFire());
+
+// const puff = new Dragon("Puff", "green");
+// const toothless = new Dragon("Toothless", "black");
+// console.log(Dragon.getDragons(puff, toothless));
 
 
 
